@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&display=swap');
+
+body {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Noto Sans';
+  margin: 0;
+  font-weight: bolder;
+  font-size: 7.5em;
+  width: auto
+}
+
+p {
+  margin: 0;
+  font-family: 'Noto Sans';
+  font-size: 2.6em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+hr {
+  width: 10%;
+  border: 0;
+  border-top: 10px solid #2e3bfb;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 10vh;
+}
+
+.wrapper, .react-swipeable-view-container {
+  height: 100vh;
+}
+
+.swipe {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Tabs */
+
+.bar {
+  background-color: transparent !important;
+  transition: opacity 0.3s !important;
+  box-shadow: none !important;
+}
+
+.MuiTab-root {
+  font-family: 'Noto Sans' !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  font-size: 1em !important;
+}
+
+.PrivateTabIndicator-colorSecondary-3 {
+  background-color: rgba(46, 60, 251, 0.835) !important;
+  height: 5px !important;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.tabs {
+  color: rgba(0, 0, 0, 0.8);
+  transition: opacity 0.3s;
+}
+
+.slide {
+  padding: 15;
+  /* height: 100%; */
+  color: rgb(0, 0, 0);
+}
+
+/* Desc */
+
+.desc {
+  display: flex;
+  height: 85vh;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10em;
+}
+
+.desc button {
+  position: absolute;
+  background: none;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  outline: none;
+  width: fit-content;
+  padding: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  align-self: flex-end;
+  bottom: 5em;
+  right: 7em;
+  transition: all 0.3s;
+}
+
+.desc button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.desc button:hover img {
+  margin-left: 1em;
+  margin-right: -1em;
+}
+
+.desc button:active {
+  opacity: 0.5;
+}
+
+.desc button img {
+  width: 2em;
+  transition: all 0.3s;
+}
+
+/* Grid content */
+
+.container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.container .after {
+  border-radius: 9px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.container:hover .after {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.container .after {
+  position: absolute;
+  text-align: center;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.container h3 {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  font-weight: normal;
+}
+
+.container p {
+  margin: 0;
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.container a {
+  text-decoration: none;
+  padding: 0.5em;
+  margin-top: 1.3em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  background-color: #2e3bfb;
+  color: #dddddd;
+  font-weight: 600;
+  border-radius: 7px;
+  transition: all 0.2s;
+}
+
+.container a:hover {
+  background-color: #2733db;
+  transition: all 0.2s;
+  transform: scale(1.1);
+}
+
+.container a:active {
+  transition: all 0.2s;
+  opacity: 0.7;
+}
+
+.container hr {
+  width: 10%;
+  border: 0;
+  border-top: 4px solid #2e3bfb;
+  border-radius: 10px;
+  margin-top: 2vh;
+}
+
+/* Work */
+
+.work {
+
+}
+
+.header {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.headerSpec {
+  border-radius: 10px;
+  border-bottom: 10px solid #2e3bfb;
+}
+
+/* Grid */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 18em;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 8px;
+}
+
+.column img {
+  margin-top: 16px;
+  vertical-align: middle;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Mobile css */
+
+@media only screen and (max-width: 768px) {
+  
+  /* Grid site */
+
+  .work {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .row {
+    margin-bottom: 2.5em;
+  }
+
+  .work h1 {
+    font-size: 4em;
+  }
+
+  .headerSpec {
+    border-bottom-width: 7px;
+    border-radius: 7px;
+  }
+
+  .container h3 {
+    font-size: 1em;
+  }
+
+  .container p {
+    font-size: 1.6em;
+  }
+
+  .container a {
+    font-size: 0.9em;
+  }
+
+  /* Other stuff */
+
+  .wrapper, .react-swipeable-view-container, .swipe {
+    /* Mobile browser header - not a great solution tough */
+    height: calc(100vh - 50px);
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Desc site */
+
+  .desc {
+    margin-left: 2em;
+  }
+
+  .desc h1 {
+    font-size: 2.9em;
+    line-height: 1.1em;
+  }
+
+  .desc p {
+    margin-top: 0.6em;
+    font-size: 1.3em;
+  }
+
+  .desc hr {
+    width: 25%;
+    border-width: 7.5px;
+  }
+
+  .desc button {
+    right: 2em;
+    bottom: 2em;
+  }
+
+}

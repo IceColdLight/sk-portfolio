@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c10b2d41.chunk.css",
+    "main.js": "/static/js/main.07e11dc2.chunk.js",
+    "main.js.map": "/static/js/main.07e11dc2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.c031c420.chunk.js": "/static/js/2.c031c420.chunk.js",
+    "static/js/2.c031c420.chunk.js.map": "/static/js/2.c031c420.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5ff011ce18c1fe7f43949edd8ce04fc5.js": "/precache-manifest.5ff011ce18c1fe7f43949edd8ce04fc5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c10b2d41.chunk.css.map": "/static/css/main.c10b2d41.chunk.css.map",
+    "static/js/2.c031c420.chunk.js.LICENSE.txt": "/static/js/2.c031c420.chunk.js.LICENSE.txt",
+    "static/media/arrow.svg": "/static/media/arrow.4b713cfe.svg",
+    "static/media/calc.png": "/static/media/calc.87eb77f3.png",
+    "static/media/checkout.png": "/static/media/checkout.b9ad7bea.png",
+    "static/media/hadu website.png": "/static/media/hadu website.c3b5f6f7.png",
+    "static/media/horarium.png": "/static/media/horarium.eeba9742.png",
+    "static/media/logo.png": "/static/media/logo.acf747d7.png",
+    "static/media/mail.png": "/static/media/mail.3e6e0524.png",
+    "static/media/ostern.gif": "/static/media/ostern.a57e92b8.gif",
+    "static/media/profile.png": "/static/media/profile.e682fb5e.png",
+    "static/media/rock.png": "/static/media/rock.301a7b91.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.c031c420.chunk.js",
+    "static/css/main.c10b2d41.chunk.css",
+    "static/js/main.07e11dc2.chunk.js"
+  ]
+}

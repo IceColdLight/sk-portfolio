@@ -53,7 +53,7 @@ hr {
   font-size: 1em !important;
 }
 
-.PrivateTabIndicator-colorSecondary-3 {
+.PrivateTabIndicator-colorSecondary-3, .MuiTabs-indicator {
   background-color: rgba(46, 60, 251, 0.835) !important;
   height: 5px !important;
   border-top-left-radius: 20px;
